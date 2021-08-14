@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #fff;
 }
 
@@ -24,5 +24,33 @@ body {
 
 .nav h1 {
   margin: auto;
+}
+
+.sumario {
+  padding: 32px 36px;
+  font-size: 18px;
+  font-weight: 600;
+  /*.topic-main{
+
+    }*/
+  margin-bottom: 1000px;
+}
+
+.sumario a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sumario a:hover {
+  text-decoration: underline;
+  color: #e61d0a;
+}
+
+.sumario .topic-child-one {
+  text-indent: 1em;
+}
+
+.sumario .topic-child-two {
+  text-indent: 2em;
 }
 /*# sourceMappingURL=style.css.map */
