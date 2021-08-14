@@ -90,10 +90,79 @@
 
     <section id="primeiros-passos">
         <h3>1.4 - Primeiros passos & Criando um repositório</h3>
+        <h4>Configure seu usuário: </h4>
         <p>
-            ...
+            O controle de versão controla quem faz as alterações num projeto.
+            Então você deve configurar seu usuário:<br>
+            <br>
+            git config --global user.name "Bruno.Orlandi"<br>
+            git config --global user.email "meu.email@gmail.com"<br>
+            <br>
+            (Substitua com seu Usuário e E-mail da sua conta no GitHub.)
+        </p>
+        <h4>Iniciando Repositório: </h4>
+        <p>
+            Para criar um novo repositório, você vai usar o comando "git init",
+            um comando único que você usa durante a configuração inicial de um novo repositório.
+            A execução desse comando cria um novo subdiretório <.git> no diretório de trabalho atual.
+            Essa ação também vai criar uma ramificação (branch) principal.
+        </p>
+        <h4>Controlando a versão do projeto: </h4>
+        <p>
+            Este exemplo pressupõe que você já tem uma pasta de projeto existente
+            dentro da qual gostaria de criar o repositório.
+            Você primeiro fará "cd" à pasta raiz do projeto e depois executará o comando "git init".<br>
+            <br>
+            "cd /path/to/your/existing/code git init"<br>
+            <br>
+            Apontar git init a um diretório de projeto existente executará a mesma configuração
+            de inicialização mencionada acima, mas com escopo para este diretório de projeto.<br>
+            <br>
+            "git init project directory"
+            <br>
+        </p>
+        <h4>Clonando Repositório: </h4>
+        <p>
+            Se um projeto já foi configurado em um repositório central, o comando clonar é a forma mais
+            comum para os usuários obterem um clone de desenvolvimento local.
+            Como o git init, a clonagem é geralmente uma operação única. Depois que um desenvolvedor
+            obtiver uma cópia ativa, todas as operações de controle de versão serão gerenciadas pelo
+            seu repositório local.<br>
+            <br>
+            "git clone repo url"
+            <br>
+            Git clone é usado para criar uma cópia ou clone de repositórios remotos.
+            Você transmite o git cline em uma URL de repositório. O Git é compatível com alguns
+            protocolos de rede diferentes e formatos correspondentes de URL. Neste exemplo,
+            usaremos o protocolo SSH de Git. As URLs do SSH de Git seguem um modelo de:<br>
+            <br>
+            "git@HOSTNAME:NOME_DE_USUARIO/NOME_DO_REPOSITORIO.git"<br>
+            <br>
+            Quando executada, a versão mais recente dos arquivos do repositório remoto na
+            ramificação principal vai ser transferida e adicionada a uma nova pasta.
+            A nova pasta vai ser nomeada de acordo com o NOME_DO_REPOSITORIO.  A pasta vai conter o histórico
+            completo do repositório remoto e a ramificação principal recém-criada.
+        </p>
+        <h4>Salvando alterações no repositório: </h4>
+        <p>
+            Agora que você possui um repositório clonado ou inicializado,
+            é possível fazer commit em alterações de versão do arquivo nele.
+            O exemplo seguinte pressupõe que você configurou um projeto em /caminho/do/projeto.
+            Os passos a serem realizados neste exemplo são:<br>
+            <br>
+            "cd /caminho/do/projeto"<br>
+            "echo Conteúdo de teste para o tutorial de Git >> TesteCommit.txt";<br>
+            "git add TesteCommit.txt" ou "git add ."<br>
+            <br>
+            E por fim, criar um novo commit com uma mensagem descrevendo o trabalho que foi feito:<br>
+            <br>
+            "git commit -m "Adicionado CommitTest.txt ao repositório"
         </p>
     </section>
+
+    <footer>
+        &copy; Equipe DOGE
+    </footer>
 </body>
 
 </html>
