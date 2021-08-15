@@ -16,7 +16,7 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 
 # :arrow_down:Downloads
 
-* **Git**https://git-scm.com/downloads
+* **Git** - https://git-scm.com/downloads
 
 # :busts_in_silhouette:Participantes
 * Cauã Rodrigues
