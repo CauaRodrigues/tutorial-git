@@ -17,12 +17,14 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 # :arrow_down:Downloads
 
 **Git**
-```https://git-scm.com/downloads```
+(https://git-scm.com/downloads)
 
 # :busts_in_silhouette:Participantes
 * Cauã Rodrigues
 * Gabriel Mariano
 * João Caetano
 * João Ozório
+* Gabriel Santos
 
 # :globe_with_meridians:Referências
+
