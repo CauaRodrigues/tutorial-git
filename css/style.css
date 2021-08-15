@@ -60,13 +60,14 @@ body {
   font-size: 25px;
   font-weight: bolder;
   font-style: oblique;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .container-summary .summary a {
   color: #000;
   text-decoration: none;
   font-size: 17px;
+  line-height: 2em;
 }
 
 .container-summary .summary a:hover {
@@ -125,11 +126,13 @@ body {
   font-size: 25px;
   font-weight: 600;
   padding: 20px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .container-git-one p {
   font-size: 18px;
+  margin: 12px;
+  line-height: 1.7em;
 }
 
 .container-git-one .container-child-img-text {
@@ -149,7 +152,6 @@ body {
 }
 
 .container-git-one .container-child-img-text .text {
-  padding: 12px;
   width: 600px;
 }
 
@@ -162,10 +164,6 @@ body {
   max-width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
-}
-
-.container-git-one .container-text-bottom {
-  padding: 12px;
 }
 
 @media only screen and (max-width: 1340px) {
