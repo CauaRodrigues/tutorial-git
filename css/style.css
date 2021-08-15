@@ -45,7 +45,7 @@ body {
   margin: auto;
   max-width: 100%;
   padding: 12px 20px;
-  border: 0.1em solid #000;
+  border: 0.12em solid #000;
   border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -96,7 +96,7 @@ body {
 }
 
 .container-git-one {
-  padding: 16px 20px;
+  padding: 10px 12px;
   height: 1200px;
   max-width: 100%;
   display: -webkit-box;
@@ -134,7 +134,6 @@ body {
 }
 
 .container-git-one .container-child-img-text {
-  border: 5px solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,16 +150,31 @@ body {
 }
 
 .container-git-one .container-child-img-text .text {
-  border: 5px solid blue;
   padding: 12px;
-  max-width: 50%;
+  width: 800px;
 }
 
-.container-git-one .container-child-img-text img {
+.container-git-one .container-child-img-text .image {
   max-width: 100%;
+  margin: auto;
 }
 
-section {
+.container-git-one .container-child-img-text .image img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container-git-one section {
   border: 3px solid green;
+}
+
+@media only screen and (max-width: 1380px) {
+  .container-git-one h3 {
+    margin: 0;
+  }
+  .container-git-one .container-child-img-text .text {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

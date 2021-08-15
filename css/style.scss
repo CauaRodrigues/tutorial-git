@@ -37,7 +37,7 @@ body{
         margin: auto;
         max-width: 100%;
         padding: 12px 20px;
-        border: 0.1em solid #000;
+        border: 0.12em solid #000;
         border-radius: 30px;
         font-size: 18px;
         font-weight: 600;
@@ -76,7 +76,7 @@ body{
 }
 
 .container-git-one{
-    padding: 16px 20px;
+    padding: 10px 12px;
     height: 1200px;
     max-width: 100%;
 
@@ -110,7 +110,6 @@ body{
     }
 
     .container-child-img-text{
-        border: 5px solid yellow;
 
         display: flex;
         flex-direction: row;
@@ -119,20 +118,41 @@ body{
         max-width: 100%;
 
         .text{
-            border: 5px solid blue;
-            
             padding: 12px;
-            max-width: 50%;
+            width: 800px;
         }
 
-        img{
+        .image{
             max-width: 100%;
+            margin: auto;
+
+            img{
+                max-width: 100%;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
         }
 
 
     }
+
+    section{
+        border: 3px solid green;
+    }
 }
 
-section{
-    border: 3px solid green;
+@media only screen and (max-width: 1380px) {
+    .container-git-one{
+
+        h3{
+            margin: 0;
+        }
+
+        .container-child-img-text{
+            
+            .text{
+                width: 100%;
+            }
+        }
+    }
 }
