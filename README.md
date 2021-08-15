@@ -14,7 +14,7 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 * CSS
 * Sass
 
-# :arrow_down:Downloads*
+# :arrow_down:Downloads
 
 **Git**
 ```https://git-scm.com/downloads```
