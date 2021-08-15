@@ -2,14 +2,14 @@
 
 Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferramentas usadas para o *desenvolvimentode de sistemas* e na realização do seu trabalho. Houve uma elaboração passo a passo para melhor compreenção de cada item, no medelo de **Tutorial** visuando melhor aprendizagem e entendimento.
 
-# :wrench:Ferramentas utilazadas*
-* Git
-* GitHub
+# :wrench:Ferramentas utilazadas
+* **Git**-Termianl usado para troca e ajustes de informações
+* **GitHub**
 * GitPages
 * Visual Studio Code
 * Adobe
 
-# :memo:Linguagens utilizadas*
+# :memo:Tecnologias Utilizadas
 * HTML
 * CSS
 * Sass
@@ -19,10 +19,10 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 **Git**
 ```https://git-scm.com/downloads```
 
-# :busts_in_silhouette:Participantes**
+# :busts_in_silhouette:Participantes
 * Cauã Rodrigues
 * Gabriel Mariano
 * João Caetano
 * João Ozório
 
-# :globe_with_meridians:Referências**
+# :globe_with_meridians:Referências
