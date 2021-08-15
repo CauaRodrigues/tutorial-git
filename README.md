@@ -10,13 +10,13 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 * **Adobe** - Ferramente usada para criação do design da página
 
 # :memo:Tecnologias Utilizadas
-* HTML
-* CSS
-* Sass
+* HTML - Código Fonte da ágina
+* CSS - Estilização
+* Sass - Complemento do CSS
 
 # :arrow_down:Downloads
 
-[Git](https://git-scm.com/downloads)
+* **Git**https://git-scm.com/downloads
 
 # :busts_in_silhouette:Participantes
 * Cauã Rodrigues
@@ -26,4 +26,6 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 * Gabriel Santos
 
 # :globe_with_meridians:Referências
-
+* https://brorlandi.github.io/2017/03/12/Git-primeiros-passos/
+* https://www.treinaweb.com.br/blog/primeiros-passos-com-o-git
+* https://www.atlassian.com/br/git/tutorials/what-is-git
