@@ -4,10 +4,10 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 
 # :wrench:Ferramentas utilazadas
 * **Git**-Termianl usado para troca e ajustes de informações
-* **GitHub**
-* GitPages
-* Visual Studio Code
-* Adobe
+* **GitHub**-Sit usado para criação do Repositório
+* **GitPages**-Ferramenta para publicação da página
+* **Visual Studio Code**-Editor de Código
+* **Adobe**-Ferramente usada para criação do design da página
 
 # :memo:Tecnologias Utilizadas
 * HTML
