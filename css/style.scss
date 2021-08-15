@@ -25,11 +25,13 @@ body{
         font-weight: 900;
         display: inline-block;
         padding: 12px;
+        letter-spacing: 0.07em;
     }
 }
 
 .container-summary{
     padding: 16px 20px;
+    margin-bottom: 40px;
 
     .summary{
         margin: auto;
@@ -45,9 +47,10 @@ body{
             text-decoration: 0.1em underline #282828;
             margin-bottom: 20px;
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bolder;
             font-style: oblique;
+            letter-spacing: 0.05em;
         }
     
         a{
@@ -61,20 +64,75 @@ body{
             }
 
         }
+
+        .topic-main-one{text-indent: 1.5em;}
+        .topic-child-main-one{text-indent: 2.5em;}
+        .topic-child-main-two{text-indent: 3.5em;}
+        .topic-child-main-three{text-indent: 4.5em;}
+
+        .topic-main-two{text-indent: 1.5em; margin-top: 20px;}
+
+    }
+}
+
+.container-git-one{
+    padding: 16px 20px;
+    height: 1200px;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 5px solid red;
     
-        /*.topic-main{
-    
-        }*/
-    
-        .topic-child-one{
-            text-indent: 2em;
-        }
-    
-        .topic-child-two{
-            text-indent: 3.5em;
-        }
-    
-        margin-bottom: 1000px
+
+    h2{
+        text-align: center;
+        color: #000;
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
     }
 
+    h3{
+        text-align: left;
+        margin-left: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        padding: 20px;
+        letter-spacing: 0.05em;
+    }
+
+    p{
+        font-size: 18px;
+
+    }
+
+    .container-child-img-text{
+        border: 5px solid yellow;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 100%;
+
+        .text{
+            border: 5px solid blue;
+            
+            padding: 12px;
+            max-width: 50%;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+
+    }
+}
+
+section{
+    border: 3px solid green;
 }

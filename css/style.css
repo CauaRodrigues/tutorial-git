@@ -33,10 +33,12 @@ body {
   font-weight: 900;
   display: inline-block;
   padding: 12px;
+  letter-spacing: 0.07em;
 }
 
 .container-summary {
   padding: 16px 20px;
+  margin-bottom: 40px;
 }
 
 .container-summary .summary {
@@ -47,10 +49,6 @@ body {
   border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
-  /*.topic-main{
-    
-        }*/
-  margin-bottom: 1000px;
 }
 
 .container-summary .summary h3 {
@@ -59,9 +57,10 @@ body {
           text-decoration: 0.1em underline #282828;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   font-style: oblique;
+  letter-spacing: 0.05em;
 }
 
 .container-summary .summary a {
@@ -75,11 +74,93 @@ body {
   color: #e61d0a;
 }
 
-.container-summary .summary .topic-child-one {
-  text-indent: 2em;
+.container-summary .summary .topic-main-one {
+  text-indent: 1.5em;
 }
 
-.container-summary .summary .topic-child-two {
+.container-summary .summary .topic-child-main-one {
+  text-indent: 2.5em;
+}
+
+.container-summary .summary .topic-child-main-two {
   text-indent: 3.5em;
+}
+
+.container-summary .summary .topic-child-main-three {
+  text-indent: 4.5em;
+}
+
+.container-summary .summary .topic-main-two {
+  text-indent: 1.5em;
+  margin-top: 20px;
+}
+
+.container-git-one {
+  padding: 16px 20px;
+  height: 1200px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 5px solid red;
+}
+
+.container-git-one h2 {
+  text-align: center;
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.container-git-one h3 {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px;
+  letter-spacing: 0.05em;
+}
+
+.container-git-one p {
+  font-size: 18px;
+}
+
+.container-git-one .container-child-img-text {
+  border: 5px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.container-git-one .container-child-img-text .text {
+  border: 5px solid blue;
+  padding: 12px;
+  max-width: 50%;
+}
+
+.container-git-one .container-child-img-text img {
+  max-width: 100%;
+}
+
+section {
+  border: 3px solid green;
 }
 /*# sourceMappingURL=style.css.map */
