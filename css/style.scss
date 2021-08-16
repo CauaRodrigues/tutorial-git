@@ -202,6 +202,104 @@ body{
     }
 }
 
+.container-git-three{
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+    h2{
+        text-align: center;
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+    }
+
+    h3{
+        text-align: left;
+        margin-left: 50px;
+        font-size: 23px;
+        font-weight: 600;
+        padding: 20px;
+        letter-spacing: 0.06em;
+    }
+
+    p{
+        font-size: 18px;
+        margin: 12px;
+        line-height: 1.7em;
+    }
+
+    .container-img-one{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+        img{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .container-image-two{
+        display: flex;
+        justify-content: center;
+
+        .container-img-two{
+            max-width: 620px;
+            display: flex;
+            justify-content: center;
+    
+            img{
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .container-image-three{
+        display: flex;
+        justify-content: center;
+
+        .container-img-three{
+            max-width: 660px;
+            display: flex;
+            justify-content: center;
+    
+            img{
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .container-image-four{
+        display: flex;
+        justify-content: center;
+
+        .container-img-four{
+            max-width: 660px;
+            display: flex;
+            justify-content: center;
+    
+            img{
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .container-img-five{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
 footer{
     text-align: center;
     font-size: 21px;
@@ -214,6 +312,7 @@ footer{
         max-width: 100%;
         margin: 12px;
         margin-bottom: 0px;
+        border-radius: 25%;
     }
 }
 
