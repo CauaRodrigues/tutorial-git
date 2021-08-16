@@ -38,10 +38,31 @@
                 <a href="#principais-comandos">1.3 - Principais Comandos</a>
             </div>
 
-            <div class="topic-main-two">
+            <br>
+
+            <div class="topic-main-one">
                 <a href="#primeiros-passos">2 - Primeiros passos & Criando um repositório</a>
             </div>
 
+            <div class="topic-child-main-one">
+                <a href="">2.1 - Configure seu usuário</a>
+            </div>
+
+            <div class="topic-child-main-two">
+                <a href="">2.2 - Configure seu usuário</a>
+            </div>
+
+            <div class="topic-child-main-three">
+                <a href="">2.3 - Iniciando Repositório</a>
+            </div>
+
+            <div class="topic-child-main-four">
+                <a href="">2.4 - Clonando Repositório</a>
+            </div>
+
+            <div class="topic-child-main-five">
+                <a href="">2.5 - Salvando alterações no repositório</a>
+            </div>
         </div>
     </section>
 
@@ -107,111 +128,135 @@
             <h3>1.3 - Principais Comandos</h3>
 
             <p>
-                <div class="git-commands">git add</div> - Adicione o conteúdo do arquivo ao índice <br>
-                git branch - Listar, criar ou excluir ramos <br>
-                git checkout - Alternar ramos ou restaurar arquivos da árvore de trabalho <br>
-                git clone - Clone um repositório em um novo diretório <br>
-                git commit - Registre as alterações no repositório <br>
-                git diff - Mostra mudanças entre commits, commit e árvore de trabalho, etc <br>
-                git init - Crie um repositório Git vazio ou reinicialize um existente <br>
-                git pull - Busque e integre com outro repositório ou filial local <br>
-                git push - Atualizar referências remotas junto com objetos associados <br>
-                git status - Mostra o estado da árvore de trabalho <br>
+                <span class="command-git">git add</span> - Adicione o conteúdo do arquivo ao índice <br>
+                <span class="command-git">git branch</span> - Listar, criar ou excluir ramos <br>
+                <span class="command-git">git checkout</span> - Alternar ramos ou restaurar arquivos da árvore de trabalho <br>
+                <span class="command-git">git clone</span> - Clone um repositório em um novo diretório <br>
+                <span class="command-git">git commit</span> - Registre as alterações no repositório <br>
+                <span class="command-git">git diff</span> - Mostra mudanças entre commits, commit e árvore de trabalho, etc <br>
+                <span class="command-git">git init</span> - Crie um repositório Git vazio ou reinicialize um existente <br>
+                <span class="command-git">git pull</span> - Busque e integre com outro repositório ou filial local <br>
+                <span class="command-git">git push</span> - Atualizar referências remotas junto com objetos associados <br>
+                <span class="command-git">git status</span> - Mostra o estado da árvore de trabalho <br>
             </p>
         </section>
     </article>
 
- <!--   
-    <section id="primeiros-passos">
-        <h3>2 - Primeiros passos & Criando um repositório</h3>
-        <h4>Configure seu usuário: </h4>
-        <p>
-            O controle de versão controla quem faz as alterações num projeto.
-            Então você deve configurar seu usuário:<br>
-            <br>
-            git config --global user.name "SeuNome"<br>
-            git config --global user.email "meu.email@gmail.com"<br>
-            <br>
-            (Substitua com seu Usuário e E-mail da sua conta no GitHub.)
-        </p>
-        <h4>Iniciando Repositório: </h4>
-        <p>
-            Para criar um novo repositório, vá até a pasta que vai utilizar no projeto
-            e use o comando "git init", um comando que você usa apenas durante a configuração inicial de um novo repositório local.
-            A execução desse comando cria um novo subdiretório (.git) na pasta de trabalho atual.
-            Essa ação também vai criar uma ramificação (branch) principal.
-        </p>
-        <h4>Clonando Repositório: </h4>
-        <p>
-            Se um projeto já foi configurado em um repositório remoto, o comando clonar é a forma mais
-            comum para os usuários obterem uma cópia de desenvolvimento local.
-            Como o "git init", a clonagem é geralmente uma operação única. Depois que um desenvolvedor
-            obtiver uma cópia ativa, todas as operações de controle de versão serão gerenciadas pelo
-            seu repositório local.<br>
-            <br>
-            "git clone repo url"
-            <br>
-            "git clone" é o comando usado para criar uma cópia ou clone de repositórios remotos.
-            Você transmite o git clone em uma URL de repositório. O Git é compatível com alguns
-            protocolos de rede diferentes e formatos correspondentes de URL. Neste exemplo,
-            usaremos o protocolo SSH de Git. As URLs do SSH de Git seguem um modelo de:<br>
-            <br>
-            "git@HOSTNAME:NOME_DE_USUARIO/NOME_DO_REPOSITORIO.git"<br>
-            <br>
-            Quando executado, a versão mais recente dos arquivos do repositório remoto na
-            ramificação principal vai ser transferida e adicionada a uma nova pasta.
-            A nova pasta vai ser nomeada de acordo com o nome do repositório. A pasta vai conter o histórico
-            completo do repositório remoto e a ramificação principal recém-criada.
-        </p>
-        <h4>Salvando alterações no repositório: </h4>
-        <p>
-            Agora que você possui um repositório clonado ou inicializado,
-            é possível fazer commit em alterações de versão do arquivo nele.
-            O exemplo seguinte exemplifica criando e usando um arquivo de teste.
-            Os passos a serem realizados neste exemplo são:<br>
-            <br>
-            "echo Conteúdo de teste para o tutorial de Git >> TesteCommit.txt";<br>
-            "git add TesteCommit.txt" ou "git add ."<br>
-            "git commit -m "Adicionado CommitTest.txt ao repositório"<br>
-            <br>
-            
-            Sobre os comandos usados:
+    <article class="container-git-two">
+        <section id="primeiros-passos">
+            <h2>2 - Primeiros passos & Criando um repositório</h2>
+            <h3>2.1 - Configure seu usuário: </h3>
+            <p>
+                O controle de versão controla quem faz as alterações num projeto.
+                Então você deve configurar seu usuário:<br>
 
-            O comando "git add" é o que vai garantir que seus arquivos novos e/ou modificados
-            sejam rastreados no seu próximo commit, assim sendo enviados do seu repositório local para o 
-            repositório remoto.
-            
-            O comando "git commit -m" define a mensagem que vai ser usada no seu commit, mensagem essa
-            que recomenda-se ser uma breve explicação da(s) modificação(ões) feita(s).
-        </p>
-        <h4>Enviando seu repositório local para o remoto: </h4>
-        <p>
-            Todas alterações que você fez até aqui, por enquanto, estão somente no seu repositório local.
-            Para que elas sejam enviadas para um repositório remoto, é necessário usar o comando "git push".
-            Tal comando é geralmente usado de duas maneiras:
-            
-            Se você clonou um repositório, tudo que precisa fazer é usar <br>
-            <br>
-            "git push"<br>
-            <br>
+                <div class="git-commands">
+                    <span>$</span> git config --global user.name "SeuNome"<br>
+                    <span>$</span> git config --global user.email "meu.email@gmail.com"<br>
+                </div>
 
-            Agora, se você criou um repositório, precisa adicionar um "caminho" para o repositório remoto
-            da seguinte forma:<br>
-            <br>
-            "git remote add nome link_do_repositório_remoto"<br>
-            <br>
-            Feito isso, basta usar o push da seguinte maneira:<br>
-            <br>
-            "git push nome main"<br>
-            <br>
-            Dessa forma, você enviará suas mudanças para o diretório especificado e já na branch principal (main).
-        </p>
-    </section>
+                (Substitua com seu Usuário e E-mail da sua conta no GitHub.)
+            </p>
+
+            <h3>2.2 - Iniciando Repositório: </h3>
+            <p>
+                Para criar um novo repositório, vá até a pasta que vai utilizar no projeto
+                e use o comando "git init", um comando que você usa apenas durante a configuração inicial de um novo repositório local.
+                A execução desse comando cria um novo subdiretório (.git) na pasta de trabalho atual.
+                Essa ação também vai criar uma ramificação (branch) principal.
+            </p>
+
+            <h3>2.3 - Clonando Repositório: </h3>
+            <p>
+                Se um projeto já foi configurado em um repositório remoto, o comando clonar é a forma mais
+                comum para os usuários obterem uma cópia de desenvolvimento local.
+                Como o "git init", a clonagem é geralmente uma operação única. Depois que um desenvolvedor
+                obtiver uma cópia ativa, todas as operações de controle de versão serão gerenciadas pelo
+                seu repositório local.
+
+                <div class="git-commands">
+                    <span>$</span> git clone repo url<br>
+                </div>
+            </p>
+
+            <p>
+                "git clone" é o comando usado para criar uma cópia ou clone de repositórios remotos.
+                Você transmite o git clone em uma URL de repositório. O Git é compatível com alguns
+                protocolos de rede diferentes e formatos correspondentes de URL. Neste exemplo,
+                usaremos o protocolo SSH de Git. As URLs do SSH de Git seguem um modelo de:<br>
+                <div class="git-commands">
+                    <span>$</span> <span class="user">git@HOSTNAME:NOME_DE_USUARIO/NOME_DO_REPOSITORIO.git</span><br>
+                </div>
+                Quando executado, a versão mais recente dos arquivos do repositório remoto na
+                ramificação principal vai ser transferida e adicionada a uma nova pasta.
+                A nova pasta vai ser nomeada de acordo com o nome do repositório. A pasta vai conter o histórico
+                completo do repositório remoto e a ramificação principal recém-criada.
+            </p>
+
+            <h3>2.4 - Salvando alterações no repositório: </h3>
+            <p>
+                Agora que você possui um repositório clonado ou inicializado,
+                é possível fazer commit em alterações de versão do arquivo nele.
+                O exemplo seguinte exemplifica criando e usando um arquivo de teste.
+                Os passos a serem realizados neste exemplo são:<br>
+                <div class="git-commands">
+                    <span>$</span> echo Conteúdo de teste para o tutorial de Git >> TesteCommit.txt<br>
+                    <span>$</span> git add TesteCommit.txt ou git add .<br>
+                    <span>$</span> git commit -m "Adicionado CommitTest.txt ao repositório"<br>
+                </div>
+            </p>
+
+            <p>             
+                Sobre os comandos usados:
+    
+                O comando "git add" é o que vai garantir que seus arquivos novos e/ou modificados
+                sejam rastreados no seu próximo commit, assim sendo enviados do seu repositório local para o 
+                repositório remoto.
+                
+                O comando "git commit -m" define a mensagem que vai ser usada no seu commit, mensagem essa
+                que recomenda-se ser uma breve explicação da(s) modificação(ões) feita(s).
+            </p>
+
+            <h3>2.5 - Enviando seu repositório local para o remoto: </h3>
+            <p>
+                Todas alterações que você fez até aqui, por enquanto, estão somente no seu repositório local.
+                Para que elas sejam enviadas para um repositório remoto, é necessário usar o comando "git push".
+                Tal comando é geralmente usado de duas maneiras:
+                
+                Se você clonou um repositório, tudo que precisa fazer é usar <br>
+
+                <div class="git-commands">
+                    <span>$</span> git push<br>
+                </div>
+            </p>
+
+            <p>      
+                Agora, se você criou um repositório, precisa adicionar um "caminho" para o repositório remoto
+                da seguinte forma:<br>
+
+                <div class="git-commands">
+                    <span>$</span> git remote add nome link_do_repositório_remoto<br>
+                </div>
+            
+            </p>
+
+            <p>    
+                Feito isso, basta usar o push da seguinte maneira:<br>
+                <div class="git-commands">
+                    <span>$</span> git push nome main<br>
+                </div>
+            </p>
+
+            <p>
+                Dessa forma, você enviará suas mudanças para o diretório especificado e já na branch principal (main).
+            </p>
+        </section>
+    </article>
     
     <footer>
         &copy; Equipe DOGE
     </footer>
--->
+
 </body>
 
 </html>

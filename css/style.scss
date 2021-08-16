@@ -37,6 +37,8 @@ body{
         margin: auto;
         max-width: 100%;
         padding: 12px 20px;
+        overflow: auto;
+        height: 65vh;
         border: 0.12em solid #000;
         border-radius: 30px;
         font-size: 18px;
@@ -70,15 +72,16 @@ body{
         .topic-child-main-one{text-indent: 2.5em;}
         .topic-child-main-two{text-indent: 3.5em;}
         .topic-child-main-three{text-indent: 4.5em;}
-
-        .topic-main-two{text-indent: 1.5em; margin-top: 20px;}
+        .topic-child-main-four{text-indent: 5.5em;}
+        .topic-child-main-five{text-indent: 6.5em;}
+        
 
     }
 }
 
 .container-git-one{
     padding: 12px 10px;
-    max-height: 320vh;
+    max-height: 420vh;
     max-width: 100%;
 
     display: flex;
@@ -89,7 +92,7 @@ body{
     h2{
         text-align: center;
         color: #000;
-        font-size: 34px;
+        font-size: 32px;
         font-weight: 700;
         letter-spacing: 0.05em;
     }
@@ -97,7 +100,7 @@ body{
     h3{
         text-align: left;
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 600;
         padding: 20px;
         letter-spacing: 0.06em;
@@ -143,17 +146,69 @@ body{
         }
     }
 
+    .command-git{
+        font-style: italic;
+        color: #363636;
+        font-size: 18px;
+    }
+
 }
 
-.git-commands{
-    background-color: #414141;
-    color: #000;
-    margin: 12px 12px 12px 12px;
-    padding: 8px 0px 8px 30px;
-    max-width: 100%;
+.container-git-two{
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 
-    font-size: 15px;
-    font-weight: 300;
+    h2{
+        text-align: center;
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+    }
+
+    h3{
+        text-align: left;
+        margin-left: 50px;
+        font-size: 23px;
+        font-weight: 600;
+        padding: 20px;
+        letter-spacing: 0.06em;
+    }
+
+    p{
+        font-size: 18px;
+        margin: 12px;
+        line-height: 1.7em;
+    }
+
+    .git-commands{
+        margin: 12px 12px 12px 12px;
+        padding: 8px 0px 8px 30px;
+        max-width: 100%;
+        background-color: #5c5c5c;
+        border-radius: 40px;
+
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+        
+
+        span{font-size: 16px;}
+
+        span.user{
+            font-size: 14px;
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 20px;
 }
 
 @media only screen and (max-width: 1340px) {
