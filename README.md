@@ -29,3 +29,5 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 * https://brorlandi.github.io/2017/03/12/Git-primeiros-passos/
 * https://www.treinaweb.com.br/blog/primeiros-passos-com-o-git
 * https://www.atlassian.com/br/git/tutorials/what-is-git
+* https://www.letscode.com.br/blog/como-hospedar-seu-site-pelo-github-pages
+* https://pt.wikipedia.org/wiki/GitHub
