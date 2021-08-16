@@ -129,6 +129,31 @@ body{
             }
         }
     }
+
+    p.link-git{
+        a{
+            color: #de3927;
+            font-weight: 600;
+            text-decoration: underline;
+
+            &:hover{
+                text-decoration: none;
+                color: #ff1822;
+            }
+        }
+    }
+
+}
+
+.git-commands{
+    background-color: #414141;
+    color: #000;
+    margin: 12px 12px 12px 12px;
+    padding: 8px 0px 8px 30px;
+    max-width: 100%;
+
+    font-size: 15px;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 1340px) {
