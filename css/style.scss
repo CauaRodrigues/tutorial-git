@@ -214,9 +214,7 @@ footer{
 @media only screen and (max-width: 1340px) {
     .container-git-one{
 
-        h3{
-            margin: 0;
-        }
+        h3{margin: 0;}
 
         .container-child-img-text{
             
@@ -224,5 +222,10 @@ footer{
                 width: 100%;
             }
         }
+    }
+
+    .container-git-two{
+
+        h3{margin: 0;}
     }
 }

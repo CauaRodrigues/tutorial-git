@@ -252,5 +252,8 @@ footer {
   .container-git-one .container-child-img-text .text {
     width: 100%;
   }
+  .container-git-two h3 {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
