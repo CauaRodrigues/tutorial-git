@@ -20,7 +20,7 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 * **Git** - https://git-scm.com/downloads
 
 # :busts_in_silhouette:Participantes
-* (https://github.com/CauaRodrigues)[Cauã Rodrigues]
+* (https://github.com/CauaRodrigues [Cauã Rodrigues])
 * Gabriel Mariano
 * João Caetano
 * João Ozório
