@@ -21,10 +21,10 @@ Projeto que procura trazer informações sobre **Git, GitHub e GitPages**, ferra
 
 # :busts_in_silhouette:Participantes
 * [Cauã Rodrigues](https://github.com/CauaRodrigues)
-* Gabriel Mariano
-* João Caetano
-* João Ozório
-* Gabriel Santos
+* [Gabriel Mariano](https://github.com/Gabriel-MarianoJ)
+* [João Caetano](https://github.com/Joaocaetano1105)
+* [João Ozorio](https://github.com/odrelvic)
+* [Gabriel Santos](https://github.com/GabrielGSF)
 
 # :globe_with_meridians:Link da página
 
